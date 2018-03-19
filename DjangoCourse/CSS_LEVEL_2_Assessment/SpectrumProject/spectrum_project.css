@@ -5,36 +5,38 @@ h1{
 }
 
 .mainTable{
-    margin: auto;    
+    margin: auto;   
+    border-spacing: 10px;
 }
 
+
 #cell1{
-    background-color: #ABA9C3;
+    background-color: #DE6B48;
     width:  200px;
     height: 400px;
     
 }
 
 #cell2{
-    background-color: #275DAD;
+    background-color: #F4B9B2;
     width:  200px;
     height: 400px;
 }
 
 #cell3{
-    background-color: #D8E2DC;
+    background-color: #DAEDBD;
     width:  200px;
     height: 400px;
 }
 
 #cell4{
-    background-color:#F7FFF6;
+    background-color:#F1A66A;
     width:  200px;
     height: 400px;
 }
 
 #cell5{
-    background-color: #FF7E6B;
+    background-color: #7DBBC3;
     width:  200px;
     height: 400px;
 }
