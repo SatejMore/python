@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px 20px 20px 20px; 
+}
+
+.mainTable{
+    margin: auto;    
+}
+
+#cell1{
+    background-color: #ABA9C3;
+    width:  200px;
+    height: 400px;
+    
+}
+
+#cell2{
+    background-color: #275DAD;
+    width:  200px;
+    height: 400px;
+}
+
+#cell3{
+    background-color: #D8E2DC;
+    width:  200px;
+    height: 400px;
+}
+
+#cell4{
+    background-color:#F7FFF6;
+    width:  200px;
+    height: 400px;
+}
+
+#cell5{
+    background-color: #FF7E6B;
+    width:  200px;
+    height: 400px;
+}
