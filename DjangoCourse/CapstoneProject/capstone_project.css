@@ -1,51 +1,39 @@
+
 body{
-    background-color: #01152D;
-    font-family: 'Raleway', sans-serif;
-    border: 60px solid #54d7ff;
-    border-top: 0px;
+    font-family: 'Montserrat';
+    color: #FDFFFC;
     text-align: center;
-    color: white;
-}
-
-h1{
-    margin: 20px 20px 20px 20px;
-}
-h2{
-    margin: 20px 20px 20px 20px;
-}
-
-p{
+    background-color: #011627;
+    border: 60px solid #2EC4B6;
+    border-top: 0px;
+    /*border-bottom: 0px;*/
+    margin: 0px;
+  }
+  
+  p{
+    color: #FDFFFC;
     padding-top: 5%;
-    padding-right: 20%;
     padding-left: 20%;
-    padding-bottom: 5%;
-}
-
-label{
-    margin: auto;
-}
-
-#fn{
- width: 275px;
- height: 35px; 
-}
-
-#ln{
-    width: 275px;
-    height: 35px;
-}
-
-#idemail{
-    width: 275px;
-    height: 35px;
-}
-
-#btnsubmit{
-    border-radius: 12px;
+    padding-right: 20%;
+  }
+  
+  .userinput{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  h2{
+    margin-bottom: 5%;
+  }
+  
+  #sub{
+    border-radius: 25px;
+    background: #FF9F1C;
+    height: 80px;
     width: 150px;
-    height:75px; 
-    background-color: #FF9F1C;
-    color: black;
-    font-weight: 20px;   
-}
-
+    font-family: "Montserrat";
+    font-size: 1.2em;
+    margin-bottom: 4px;
+  
+  }
+  

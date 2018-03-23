@@ -1,32 +1,35 @@
-<htm>
-    <head>
-        <meta charset="utf-8">
-        <title>Capstone Project</title>
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link rel="stylesheet" href="capstone_project.css"/>
-    </head>
-    <body>
-        <h1>Welcome to the Landing Page</h1>
-        
-        <h2>We're a start-up that does something</h2>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="capstone_project.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <body>
+    <h1>Welcome to the Landing Page</h1>
+    <h2>We're a start-up that does something</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <h2>Sign up for our upcoming launch!</h2>
+  </body>
 
-        <form action="thankyou.html" method="GET">
-        <label for="fn">First Name:</label>
-        <input id="fn" type="text" name="firstname" required>
-        
-        <label for="ln">Last Name:</label>
-        <input id="ln" type="text" name="lastname"  required>
-        
-        <label for="idemail">Email:</label>
-        <input id="idemail" type="email" name="Email" required>
-        </form>
+  <h2>Sign up for our upcoming launch!</h2>
+  <form class="emailform" action="thankyou.html" method="get">
 
-        <input id="btnSubmit" type="submit" name="submit" value="Sign me up!">
-    </body>
-</htm>
+    <label for="first">First Name:</label><br>
+    <input class="userinput" type="text" name="first" value=""><br>
+
+    <label for="last">Last Name:</label><br>
+    <input class="userinput" type="text" name="last" value=""><br>
+
+    <label for="email">Email:</label><br>
+    <input class="userinput" type="email" name="email" value=""><br>
+
+    <input type="submit" id="sub" name="" value="Sign me up!">
+
+
+  </form>
+</html>
